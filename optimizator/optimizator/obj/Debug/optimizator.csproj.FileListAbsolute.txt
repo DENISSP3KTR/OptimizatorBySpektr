@@ -1,0 +1,10 @@
+D:\github\optimizatorbyspektr\optimizator\optimizator\bin\Debug\optimizator.exe.config
+D:\github\optimizatorbyspektr\optimizator\optimizator\bin\Debug\optimizator.exe
+D:\github\optimizatorbyspektr\optimizator\optimizator\bin\Debug\optimizator.pdb
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.csproj.AssemblyReference.cache
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Properties.Resources.resources
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.csproj.GenerateResource.cache
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.csproj.CoreCompileInputs.cache
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.exe
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.pdb
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.mainform.resources
