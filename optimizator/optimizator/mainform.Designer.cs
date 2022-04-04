@@ -33,9 +33,11 @@ namespace optimizator
             this.closeBtn = new System.Windows.Forms.PictureBox();
             this.resizeBtn = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.collapseBtn = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.resizeBtn)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).BeginInit();
             this.SuspendLayout();
             // 
             // closeBtn
@@ -71,6 +73,7 @@ namespace optimizator
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.panel1.Controls.Add(this.collapseBtn);
             this.panel1.Controls.Add(this.resizeBtn);
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -78,6 +81,20 @@ namespace optimizator
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(971, 27);
             this.panel1.TabIndex = 2;
+            // 
+            // collapseBtn
+            // 
+            this.collapseBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.collapseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.collapseBtn.Image = ((System.Drawing.Image)(resources.GetObject("collapseBtn.Image")));
+            this.collapseBtn.InitialImage = global::optimizator.Properties.Resources.closeicon2;
+            this.collapseBtn.Location = new System.Drawing.Point(884, 0);
+            this.collapseBtn.Name = "collapseBtn";
+            this.collapseBtn.Size = new System.Drawing.Size(25, 25);
+            this.collapseBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.collapseBtn.TabIndex = 2;
+            this.collapseBtn.TabStop = false;
+            this.collapseBtn.Click += new System.EventHandler(this.collapseBtn_Click);
             // 
             // mainform
             // 
@@ -96,6 +113,7 @@ namespace optimizator
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.resizeBtn)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -105,6 +123,7 @@ namespace optimizator
         private System.Windows.Forms.PictureBox closeBtn;
         private System.Windows.Forms.PictureBox resizeBtn;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox collapseBtn;
     }
 }
 

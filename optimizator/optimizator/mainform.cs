@@ -52,5 +52,10 @@ namespace optimizator
                 state = 0;
             }
         }
+
+        private void collapseBtn_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
     }
 }
