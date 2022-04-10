@@ -30,92 +30,123 @@ namespace optimizator
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainform));
-            this.closeBtn = new System.Windows.Forms.PictureBox();
-            this.resizeBtn = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.closeBtn = new System.Windows.Forms.PictureBox();
             this.collapseBtn = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.resizeBtn)).BeginInit();
+            this.resizeBtn = new System.Windows.Forms.PictureBox();
+            this.panelmenu = new System.Windows.Forms.Panel();
+            this.parametrbtn = new System.Windows.Forms.Button();
+            this.servicebtn = new System.Windows.Forms.Button();
+            this.clearbtn = new System.Windows.Forms.Button();
+            this.tweakbtn = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.resizeBtn)).BeginInit();
+            this.panelmenu.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(134)))), ((int)(((byte)(194)))));
+            this.panel1.Controls.Add(this.closeBtn);
+            this.panel1.Controls.Add(this.collapseBtn);
+            this.panel1.Controls.Add(this.resizeBtn);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // closeBtn
             // 
             resources.ApplyResources(this.closeBtn, "closeBtn");
             this.closeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.closeBtn.InitialImage = global::optimizator.Properties.Resources.closeicon2;
             this.closeBtn.Name = "closeBtn";
             this.closeBtn.TabStop = false;
             this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
             this.closeBtn.MouseEnter += new System.EventHandler(this.closeBtn_MouseEnter);
             this.closeBtn.MouseLeave += new System.EventHandler(this.closeBtn_MouseLeave);
             // 
-            // resizeBtn
-            // 
-            resources.ApplyResources(this.resizeBtn, "resizeBtn");
-            this.resizeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.resizeBtn.InitialImage = global::optimizator.Properties.Resources.closeicon2;
-            this.resizeBtn.Name = "resizeBtn";
-            this.resizeBtn.TabStop = false;
-            this.resizeBtn.Click += new System.EventHandler(this.resizeBtn_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.panel1.Controls.Add(this.collapseBtn);
-            this.panel1.Controls.Add(this.resizeBtn);
-            this.panel1.Controls.Add(this.closeBtn);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
-            // 
             // collapseBtn
             // 
             resources.ApplyResources(this.collapseBtn, "collapseBtn");
             this.collapseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.collapseBtn.InitialImage = global::optimizator.Properties.Resources.closeicon2;
             this.collapseBtn.Name = "collapseBtn";
             this.collapseBtn.TabStop = false;
             this.collapseBtn.Click += new System.EventHandler(this.collapseBtn_Click);
+            this.collapseBtn.MouseEnter += new System.EventHandler(this.collapseBtn_MouseEnter);
+            this.collapseBtn.MouseLeave += new System.EventHandler(this.collapseBtn_MouseLeave);
             // 
-            // panel2
+            // resizeBtn
             // 
-            this.panel2.Controls.Add(this.tabControl1);
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
+            resources.ApplyResources(this.resizeBtn, "resizeBtn");
+            this.resizeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resizeBtn.Name = "resizeBtn";
+            this.resizeBtn.TabStop = false;
+            this.resizeBtn.Click += new System.EventHandler(this.resizeBtn_Click);
+            this.resizeBtn.MouseEnter += new System.EventHandler(this.resizeBtn_MouseEnter);
+            this.resizeBtn.MouseLeave += new System.EventHandler(this.resizeBtn_MouseLeave);
             // 
-            // tabControl1
+            // panelmenu
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            resources.ApplyResources(this.tabControl1, "tabControl1");
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
+            this.panelmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelmenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelmenu.Controls.Add(this.parametrbtn);
+            this.panelmenu.Controls.Add(this.servicebtn);
+            this.panelmenu.Controls.Add(this.clearbtn);
+            this.panelmenu.Controls.Add(this.tweakbtn);
+            resources.ApplyResources(this.panelmenu, "panelmenu");
+            this.panelmenu.Name = "panelmenu";
             // 
-            // tabPage1
+            // parametrbtn
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.DimGray;
-            resources.ApplyResources(this.tabPage1, "tabPage1");
-            this.tabPage1.Name = "tabPage1";
+            this.parametrbtn.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.parametrbtn, "parametrbtn");
+            this.parametrbtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.parametrbtn.Name = "parametrbtn";
+            this.parametrbtn.UseVisualStyleBackColor = true;
+            this.parametrbtn.Click += new System.EventHandler(this.parametrbtn_Click);
             // 
-            // tabPage2
+            // servicebtn
             // 
-            resources.ApplyResources(this.tabPage2, "tabPage2");
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.servicebtn.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.servicebtn, "servicebtn");
+            this.servicebtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.servicebtn.Name = "servicebtn";
+            this.servicebtn.UseVisualStyleBackColor = true;
+            this.servicebtn.Click += new System.EventHandler(this.servicebtn_Click);
+            // 
+            // clearbtn
+            // 
+            this.clearbtn.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.clearbtn, "clearbtn");
+            this.clearbtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.clearbtn.Name = "clearbtn";
+            this.clearbtn.UseVisualStyleBackColor = true;
+            this.clearbtn.Click += new System.EventHandler(this.clearbtn_Click);
+            // 
+            // tweakbtn
+            // 
+            this.tweakbtn.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.tweakbtn, "tweakbtn");
+            this.tweakbtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.tweakbtn.Name = "tweakbtn";
+            this.tweakbtn.UseVisualStyleBackColor = true;
+            this.tweakbtn.Click += new System.EventHandler(this.tweakbtn_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.DimGray;
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Name = "panel3";
             // 
             // mainform
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panelmenu);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -123,26 +154,26 @@ namespace optimizator
             this.Name = "mainform";
             this.ShowIcon = false;
             this.Load += new System.EventHandler(this.mainform_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.resizeBtn)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.tabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.resizeBtn)).EndInit();
+            this.panelmenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox closeBtn;
         private System.Windows.Forms.PictureBox resizeBtn;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox collapseBtn;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelmenu;
+        private System.Windows.Forms.Button parametrbtn;
+        private System.Windows.Forms.Button servicebtn;
+        private System.Windows.Forms.Button clearbtn;
+        private System.Windows.Forms.Button tweakbtn;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox closeBtn;
     }
 }
 
