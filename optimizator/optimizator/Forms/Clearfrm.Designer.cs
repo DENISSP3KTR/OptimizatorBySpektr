@@ -49,7 +49,7 @@ namespace optimizator.Forms
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Constantia", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(23, 25);
+            this.label1.Location = new System.Drawing.Point(34, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(227, 26);
             this.label1.TabIndex = 0;
@@ -58,7 +58,7 @@ namespace optimizator.Forms
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 51);
+            this.label2.Location = new System.Drawing.Point(36, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(601, 13);
             this.label2.TabIndex = 1;
@@ -68,7 +68,7 @@ namespace optimizator.Forms
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 100);
+            this.label3.Location = new System.Drawing.Point(36, 95);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(601, 13);
             this.label3.TabIndex = 3;
@@ -79,7 +79,7 @@ namespace optimizator.Forms
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Constantia", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(23, 74);
+            this.label4.Location = new System.Drawing.Point(34, 69);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(176, 26);
             this.label4.TabIndex = 2;
@@ -88,7 +88,7 @@ namespace optimizator.Forms
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(25, 154);
+            this.label5.Location = new System.Drawing.Point(36, 144);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(601, 13);
             this.label5.TabIndex = 5;
@@ -99,7 +99,7 @@ namespace optimizator.Forms
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Constantia", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(23, 128);
+            this.label6.Location = new System.Drawing.Point(34, 118);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(231, 26);
             this.label6.TabIndex = 4;
@@ -108,7 +108,7 @@ namespace optimizator.Forms
             // toggleSwitch1
             // 
             this.toggleSwitch1.AutoSize = true;
-            this.toggleSwitch1.Location = new System.Drawing.Point(581, 29);
+            this.toggleSwitch1.Location = new System.Drawing.Point(592, 24);
             this.toggleSwitch1.MinimumSize = new System.Drawing.Size(45, 22);
             this.toggleSwitch1.Name = "toggleSwitch1";
             this.toggleSwitch1.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(166)))));
@@ -123,7 +123,7 @@ namespace optimizator.Forms
             // toggleSwitch2
             // 
             this.toggleSwitch2.AutoSize = true;
-            this.toggleSwitch2.Location = new System.Drawing.Point(581, 78);
+            this.toggleSwitch2.Location = new System.Drawing.Point(592, 73);
             this.toggleSwitch2.MinimumSize = new System.Drawing.Size(45, 22);
             this.toggleSwitch2.Name = "toggleSwitch2";
             this.toggleSwitch2.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(166)))));
@@ -138,7 +138,7 @@ namespace optimizator.Forms
             // toggleSwitch3
             // 
             this.toggleSwitch3.AutoSize = true;
-            this.toggleSwitch3.Location = new System.Drawing.Point(581, 133);
+            this.toggleSwitch3.Location = new System.Drawing.Point(592, 122);
             this.toggleSwitch3.MinimumSize = new System.Drawing.Size(45, 22);
             this.toggleSwitch3.Name = "toggleSwitch3";
             this.toggleSwitch3.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(166)))));
@@ -155,7 +155,7 @@ namespace optimizator.Forms
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Constantia", 15.75F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label7.Location = new System.Drawing.Point(420, 25);
+            this.label7.Location = new System.Drawing.Point(431, 20);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(155, 26);
             this.label7.TabIndex = 9;
@@ -167,7 +167,7 @@ namespace optimizator.Forms
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Constantia", 15.75F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label8.Location = new System.Drawing.Point(420, 78);
+            this.label8.Location = new System.Drawing.Point(431, 69);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(155, 26);
             this.label8.TabIndex = 10;
@@ -179,7 +179,7 @@ namespace optimizator.Forms
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Constantia", 15.75F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.label9.Location = new System.Drawing.Point(420, 128);
+            this.label9.Location = new System.Drawing.Point(431, 118);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(155, 26);
             this.label9.TabIndex = 11;
@@ -193,7 +193,7 @@ namespace optimizator.Forms
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Constantia", 15.75F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(221, 212);
+            this.button1.Location = new System.Drawing.Point(239, 181);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 48);
             this.button1.TabIndex = 12;
@@ -205,7 +205,7 @@ namespace optimizator.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(643, 457);
+            this.ClientSize = new System.Drawing.Size(659, 496);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
