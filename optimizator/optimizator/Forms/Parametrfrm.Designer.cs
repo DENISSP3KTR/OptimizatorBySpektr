@@ -320,7 +320,7 @@ namespace optimizator.Forms
             this.vScrollBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.vScrollBar1.Location = new System.Drawing.Point(633, 9);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(17, 439);
+            this.vScrollBar1.Size = new System.Drawing.Size(17, 478);
             this.vScrollBar1.TabIndex = 31;
             // 
             // Parametrfrm
@@ -328,7 +328,7 @@ namespace optimizator.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(659, 457);
+            this.ClientSize = new System.Drawing.Size(659, 663);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label13);
