@@ -33,17 +33,15 @@ namespace optimizator
             this.panel1 = new System.Windows.Forms.Panel();
             this.closeBtn = new System.Windows.Forms.PictureBox();
             this.collapseBtn = new System.Windows.Forms.PictureBox();
-            this.resizeBtn = new System.Windows.Forms.PictureBox();
             this.panelmenu = new System.Windows.Forms.Panel();
             this.parametrbtn = new System.Windows.Forms.Button();
             this.servicebtn = new System.Windows.Forms.Button();
             this.clearbtn = new System.Windows.Forms.Button();
             this.tweakbtn = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panelfrm = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.resizeBtn)).BeginInit();
             this.panelmenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +50,6 @@ namespace optimizator
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(134)))), ((int)(((byte)(194)))));
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Controls.Add(this.collapseBtn);
-            this.panel1.Controls.Add(this.resizeBtn);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
@@ -76,16 +73,6 @@ namespace optimizator
             this.collapseBtn.Click += new System.EventHandler(this.collapseBtn_Click);
             this.collapseBtn.MouseEnter += new System.EventHandler(this.collapseBtn_MouseEnter);
             this.collapseBtn.MouseLeave += new System.EventHandler(this.collapseBtn_MouseLeave);
-            // 
-            // resizeBtn
-            // 
-            resources.ApplyResources(this.resizeBtn, "resizeBtn");
-            this.resizeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.resizeBtn.Name = "resizeBtn";
-            this.resizeBtn.TabStop = false;
-            this.resizeBtn.Click += new System.EventHandler(this.resizeBtn_Click);
-            this.resizeBtn.MouseEnter += new System.EventHandler(this.resizeBtn_MouseEnter);
-            this.resizeBtn.MouseLeave += new System.EventHandler(this.resizeBtn_MouseLeave);
             // 
             // panelmenu
             // 
@@ -134,18 +121,18 @@ namespace optimizator
             this.tweakbtn.UseVisualStyleBackColor = true;
             this.tweakbtn.Click += new System.EventHandler(this.tweakbtn_Click);
             // 
-            // panel3
+            // panelfrm
             // 
-            this.panel3.BackColor = System.Drawing.Color.DimGray;
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
+            this.panelfrm.BackColor = System.Drawing.Color.DimGray;
+            resources.ApplyResources(this.panelfrm, "panelfrm");
+            this.panelfrm.Name = "panelfrm";
             // 
             // mainform
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panelfrm);
             this.Controls.Add(this.panelmenu);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -157,14 +144,12 @@ namespace optimizator
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.resizeBtn)).EndInit();
             this.panelmenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox resizeBtn;
         private System.Windows.Forms.PictureBox collapseBtn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panelmenu;
@@ -172,7 +157,7 @@ namespace optimizator
         private System.Windows.Forms.Button servicebtn;
         private System.Windows.Forms.Button clearbtn;
         private System.Windows.Forms.Button tweakbtn;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panelfrm;
         private System.Windows.Forms.PictureBox closeBtn;
     }
 }

@@ -117,11 +117,60 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;closeBtn.Name" xml:space="preserve">
+    <value>closeBtn</value>
+  </data>
+  <data name="&gt;&gt;closeBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeBtn.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;closeBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;collapseBtn.Name" xml:space="preserve">
+    <value>collapseBtn</value>
+  </data>
+  <data name="&gt;&gt;collapseBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;collapseBtn.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;collapseBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>888, 27</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="closeBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="closeBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABGdBTUEAALGPC/xhBQAABLNJREFUeF7t
@@ -160,7 +209,6 @@
   <data name="closeBtn.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="closeBtn.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
@@ -193,7 +241,7 @@
     <value>NoControl</value>
   </data>
   <data name="collapseBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>801, 0</value>
+    <value>831, 0</value>
   </data>
   <data name="collapseBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>25, 25</value>
@@ -216,73 +264,77 @@
   <data name="&gt;&gt;collapseBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="resizeBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;parametrbtn.Name" xml:space="preserve">
+    <value>parametrbtn</value>
   </data>
-  <data name="resizeBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABGdBTUEAALGPC/xhBQAAAflJREFUeF7t
-        2kGKFEEARNHe6Bn0iOpB9GQq6jH0AupeMwR3P7vNoRLyYzz4u6IyqmhmMdStqqqqqqqqqqr+eD56M/ow
-        +jn6dVjZ9H70evRspPRy9GVED3hin0cvRir5JZte8t8+jVS/7Py5oAcx9Gqk8XFED2Eof7M1fozoIQx9
-        H2nQA5jSoPGmNGi8KQ0ab0qDxpvSoPGmNGh8Og1tTBo0Pp2GNiYNGp9OQxuTBo1Pp6GNSYPGp9PQxqRB
-        49NpaGPSoPGpLkYvOdXF6CWnuhi95FQXo5ec6mL0klNdjF5yeqp+HzJBY9JT9PuQO2hAWtXvQx6gw9Oq
-        fh/yAB2cVvX7kAfo4LSq34c8QAenVXSPdBramLajQ9Mqukc6DW1M29GhaRXdI52GNqbt6NC0iu6RTkMb
-        03Z0aFpF90inoY1pOzo0raJ7pNPQxrQdHXqvGbrW1HZ06L1m6FpT29Gh95qha01t921EB8+aoWtNbfdu
-        RAfPmqFrTW2Xf2/mZf/rL3uGrjWlQeNNadB4Uxo03pQGjTelQeNNadB4Uxo03pQGjTelQeNNadB4Uxo0
-        3pQGjTelQeNNadB4Uxo03pQGjTelQeNNadB4Uxo03pQGjTelQeNNaax+H3JSX0caq9+HnNTbkcbq9yEn
-        lK3ZnO1VVVVVVVVVVf+p2+03brMUQkjP98sAAAAASUVORK5CYII=
-</value>
+  <data name="&gt;&gt;parametrbtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="resizeBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;parametrbtn.Parent" xml:space="preserve">
+    <value>panelmenu</value>
   </data>
-  <data name="resizeBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>832, 0</value>
+  <data name="&gt;&gt;parametrbtn.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="resizeBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 25</value>
+  <data name="&gt;&gt;servicebtn.Name" xml:space="preserve">
+    <value>servicebtn</value>
   </data>
-  <data name="resizeBtn.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
+  <data name="&gt;&gt;servicebtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="resizeBtn.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;servicebtn.Parent" xml:space="preserve">
+    <value>panelmenu</value>
+  </data>
+  <data name="&gt;&gt;servicebtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;resizeBtn.Name" xml:space="preserve">
-    <value>resizeBtn</value>
+  <data name="&gt;&gt;clearbtn.Name" xml:space="preserve">
+    <value>clearbtn</value>
   </data>
-  <data name="&gt;&gt;resizeBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;clearbtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;resizeBtn.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;clearbtn.Parent" xml:space="preserve">
+    <value>panelmenu</value>
   </data>
-  <data name="&gt;&gt;resizeBtn.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;clearbtn.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;tweakbtn.Name" xml:space="preserve">
+    <value>tweakbtn</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;tweakbtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>888, 27</value>
+  <data name="&gt;&gt;tweakbtn.Parent" xml:space="preserve">
+    <value>panelmenu</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;tweakbtn.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
+  <data name="panelmenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+  <data name="panelmenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="panelmenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 496</value>
+  </data>
+  <data name="panelmenu.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.Name" xml:space="preserve">
+    <value>panelmenu</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panelmenu.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;panelmenu.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="parametrbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -376,6 +428,36 @@
   </data>
   <data name="servicebtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Constantia, 15.75pt, style=Bold</value>
+  </data>
+  <data name="servicebtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        zr8HxhYMFhP48AAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="servicebtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -514,52 +596,28 @@
   <data name="&gt;&gt;tweakbtn.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panelmenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="panelmenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="panelmenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 496</value>
-  </data>
-  <data name="panelmenu.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.Name" xml:space="preserve">
-    <value>panelmenu</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="panelfrm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="panelfrm.Location" type="System.Drawing.Point, System.Drawing">
     <value>229, 27</value>
   </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="panelfrm.Size" type="System.Drawing.Size, System.Drawing">
     <value>659, 496</value>
   </data>
-  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+  <data name="panelfrm.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
-    <value>panel3</value>
+  <data name="&gt;&gt;panelfrm.Name" xml:space="preserve">
+    <value>panelfrm</value>
   </data>
-  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+  <data name="&gt;&gt;panelfrm.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panelfrm.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panelfrm.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

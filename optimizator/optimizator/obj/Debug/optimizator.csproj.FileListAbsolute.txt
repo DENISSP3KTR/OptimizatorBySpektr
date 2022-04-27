@@ -7,3 +7,8 @@ D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.cspr
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.exe
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.pdb
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.mainform.resources
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.csproj.AssemblyReference.cache
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Clearfrm.resources
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Parametrfrm.resources
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Reestrfrm.resources
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Servicefrm.resources

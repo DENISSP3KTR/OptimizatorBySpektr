@@ -46,6 +46,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\ToggleSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Clearfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clearfrm.Designer.cs">
+      <DependentUpon>Clearfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Parametrfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Parametrfrm.Designer.cs">
+      <DependentUpon>Parametrfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reestrfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reestrfrm.Designer.cs">
+      <DependentUpon>Reestrfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Servicefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Servicefrm.Designer.cs">
+      <DependentUpon>Servicefrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="mainform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +81,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Clearfrm.resx">
+      <DependentUpon>Clearfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Parametrfrm.resx">
+      <DependentUpon>Parametrfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reestrfrm.resx">
+      <DependentUpon>Reestrfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Servicefrm.resx">
+      <DependentUpon>Servicefrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mainform.resx">
       <DependentUpon>mainform.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,5 +143,6 @@
   <ItemGroup>
     <None Include="Resources\resizeicon2.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

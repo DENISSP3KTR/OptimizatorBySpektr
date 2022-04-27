@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using optimizator.Forms;
 
 namespace optimizator
 {
@@ -25,9 +26,10 @@ namespace optimizator
 
         }
         private Button currentBtn;
+        private Form activeFrm;
         private void ActiveBtn(object btnsender)
         {
-            if (btnsender != null)
+            if (btnsender != null && btnsender!=currentBtn)
             {
                 DisableBtn();
                 if (currentBtn != (Button)btnsender)
@@ -66,33 +68,9 @@ namespace optimizator
             closeBtn.Image = closeicon1;
         }
 
-        private void resizeBtn_Click(object sender, EventArgs e)
-        {
-            if(state == 0)
-            {
-                WindowState = FormWindowState.Maximized;
-                state = 1;
-            }
-            else
-            {
-                WindowState = FormWindowState.Normal;
-                state = 0;
-            }
-        }
-
         private void collapseBtn_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
-        }
-
-        private void resizeBtn_MouseEnter(object sender, EventArgs e)
-        {
-            resizeBtn.BackColor = Color.FromArgb(129, 129, 234);
-        }
-
-        private void resizeBtn_MouseLeave(object sender, EventArgs e)
-        {
-            resizeBtn.BackColor = Color.FromArgb(134, 134, 194);
         }
 
         private void collapseBtn_MouseEnter(object sender, EventArgs e)
@@ -111,25 +89,42 @@ namespace optimizator
             Message m = Message.Create(Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
             WndProc(ref m);
         }
+        private void OpenChildFrm(Form childFrm, object btnsender)
+        {
+            if (activeFrm != null)
+            {
+                activeFrm.Close();
+            }
+            ActiveBtn(btnsender);
+            activeFrm = childFrm;
+            childFrm.TopLevel = false;
+            childFrm.FormBorderStyle = FormBorderStyle.None;
+            childFrm.Dock = DockStyle.Fill;
+            this.panelfrm.Controls.Add(childFrm);
+            this.panelfrm.Tag = childFrm;
+            childFrm.BackColor = Color.DimGray;
+            childFrm.BringToFront();
+            childFrm.Show();
+        }
 
         private void tweakbtn_Click(object sender, EventArgs e)
         {
-            ActiveBtn(sender);
+            OpenChildFrm(new Reestrfrm(), sender);
         }
 
         private void clearbtn_Click(object sender, EventArgs e)
         {
-            ActiveBtn(sender);
+            OpenChildFrm(new Clearfrm(), sender);
         }
 
         private void servicebtn_Click(object sender, EventArgs e)
         {
-            ActiveBtn(sender);
+            OpenChildFrm(new Servicefrm(), sender);
         }
 
         private void parametrbtn_Click(object sender, EventArgs e)
         {
-            ActiveBtn(sender);
+            OpenChildFrm(new Parametrfrm(), sender);
         }
     }
 }
