@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using optimizator.Controllers;
 namespace optimizator.Forms
 {
     public partial class Clearfrm : Form
@@ -16,41 +16,20 @@ namespace optimizator.Forms
         {
             InitializeComponent();
         }
-
-        private void toggleSwitch1_CheckedChanged(object sender, EventArgs e)
+        labelv v = new labelv();
+        private void deltelemtoggle_CheckedChanged(object sender, EventArgs e)
         {
-            if (toggleSwitch1.Checked == true)
-            {
-                label7.Visible = true;
-            }
-            else
-            {
-                label7.Visible = false;
-            }
+            v.LabelVisible(deltelemtoggle, label7);
         }
 
-        private void toggleSwitch2_CheckedChanged(object sender, EventArgs e)
+        private void musortoggle_CheckedChanged(object sender, EventArgs e)
         {
-            if (toggleSwitch2.Checked == true)
-            {
-                label8.Visible = true;
-            }
-            else
-            {
-                label8.Visible = false;
-            }
+            v.LabelVisible(musortoggle, label8);
         }
 
-        private void toggleSwitch3_CheckedChanged(object sender, EventArgs e)
+        private void deeptoggle_CheckedChanged(object sender, EventArgs e)
         {
-            if (toggleSwitch3.Checked == true)
-            {
-                label9.Visible = true;
-            }
-            else
-            {
-                label9.Visible = false;
-            }
+            v.LabelVisible(deeptoggle, label9);
         }
     }
 }

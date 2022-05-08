@@ -35,13 +35,13 @@ namespace optimizator.Forms
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.toggleSwitch1 = new optimizator.Controllers.ToggleSwitch();
-            this.toggleSwitch2 = new optimizator.Controllers.ToggleSwitch();
-            this.toggleSwitch3 = new optimizator.Controllers.ToggleSwitch();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.deeptoggle = new optimizator.Controllers.ToggleSwitch();
+            this.musortoggle = new optimizator.Controllers.ToggleSwitch();
+            this.deltelemtoggle = new optimizator.Controllers.ToggleSwitch();
             this.SuspendLayout();
             // 
             // label1
@@ -105,51 +105,6 @@ namespace optimizator.Forms
             this.label6.TabIndex = 4;
             this.label6.Text = "Углубленная очистка";
             // 
-            // toggleSwitch1
-            // 
-            this.toggleSwitch1.AutoSize = true;
-            this.toggleSwitch1.Location = new System.Drawing.Point(592, 24);
-            this.toggleSwitch1.MinimumSize = new System.Drawing.Size(45, 22);
-            this.toggleSwitch1.Name = "toggleSwitch1";
-            this.toggleSwitch1.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(166)))));
-            this.toggleSwitch1.OffToggleColor = System.Drawing.Color.Gainsboro;
-            this.toggleSwitch1.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.toggleSwitch1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.toggleSwitch1.Size = new System.Drawing.Size(45, 22);
-            this.toggleSwitch1.TabIndex = 6;
-            this.toggleSwitch1.UseVisualStyleBackColor = true;
-            this.toggleSwitch1.CheckedChanged += new System.EventHandler(this.toggleSwitch1_CheckedChanged);
-            // 
-            // toggleSwitch2
-            // 
-            this.toggleSwitch2.AutoSize = true;
-            this.toggleSwitch2.Location = new System.Drawing.Point(592, 73);
-            this.toggleSwitch2.MinimumSize = new System.Drawing.Size(45, 22);
-            this.toggleSwitch2.Name = "toggleSwitch2";
-            this.toggleSwitch2.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(166)))));
-            this.toggleSwitch2.OffToggleColor = System.Drawing.Color.Gainsboro;
-            this.toggleSwitch2.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.toggleSwitch2.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.toggleSwitch2.Size = new System.Drawing.Size(45, 22);
-            this.toggleSwitch2.TabIndex = 7;
-            this.toggleSwitch2.UseVisualStyleBackColor = true;
-            this.toggleSwitch2.CheckedChanged += new System.EventHandler(this.toggleSwitch2_CheckedChanged);
-            // 
-            // toggleSwitch3
-            // 
-            this.toggleSwitch3.AutoSize = true;
-            this.toggleSwitch3.Location = new System.Drawing.Point(592, 122);
-            this.toggleSwitch3.MinimumSize = new System.Drawing.Size(45, 22);
-            this.toggleSwitch3.Name = "toggleSwitch3";
-            this.toggleSwitch3.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(166)))));
-            this.toggleSwitch3.OffToggleColor = System.Drawing.Color.Gainsboro;
-            this.toggleSwitch3.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.toggleSwitch3.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.toggleSwitch3.Size = new System.Drawing.Size(45, 22);
-            this.toggleSwitch3.TabIndex = 8;
-            this.toggleSwitch3.UseVisualStyleBackColor = true;
-            this.toggleSwitch3.CheckedChanged += new System.EventHandler(this.toggleSwitch3_CheckedChanged);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -200,6 +155,51 @@ namespace optimizator.Forms
             this.button1.Text = "Применить";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // deeptoggle
+            // 
+            this.deeptoggle.AutoSize = true;
+            this.deeptoggle.Location = new System.Drawing.Point(592, 122);
+            this.deeptoggle.MinimumSize = new System.Drawing.Size(45, 22);
+            this.deeptoggle.Name = "deeptoggle";
+            this.deeptoggle.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(166)))));
+            this.deeptoggle.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.deeptoggle.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.deeptoggle.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.deeptoggle.Size = new System.Drawing.Size(45, 22);
+            this.deeptoggle.TabIndex = 8;
+            this.deeptoggle.UseVisualStyleBackColor = true;
+            this.deeptoggle.CheckedChanged += new System.EventHandler(this.deeptoggle_CheckedChanged);
+            // 
+            // musortoggle
+            // 
+            this.musortoggle.AutoSize = true;
+            this.musortoggle.Location = new System.Drawing.Point(592, 73);
+            this.musortoggle.MinimumSize = new System.Drawing.Size(45, 22);
+            this.musortoggle.Name = "musortoggle";
+            this.musortoggle.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(166)))));
+            this.musortoggle.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.musortoggle.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.musortoggle.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.musortoggle.Size = new System.Drawing.Size(45, 22);
+            this.musortoggle.TabIndex = 7;
+            this.musortoggle.UseVisualStyleBackColor = true;
+            this.musortoggle.CheckedChanged += new System.EventHandler(this.musortoggle_CheckedChanged);
+            // 
+            // deltelemtoggle
+            // 
+            this.deltelemtoggle.AutoSize = true;
+            this.deltelemtoggle.Location = new System.Drawing.Point(592, 24);
+            this.deltelemtoggle.MinimumSize = new System.Drawing.Size(45, 22);
+            this.deltelemtoggle.Name = "deltelemtoggle";
+            this.deltelemtoggle.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(166)))));
+            this.deltelemtoggle.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.deltelemtoggle.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.deltelemtoggle.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.deltelemtoggle.Size = new System.Drawing.Size(45, 22);
+            this.deltelemtoggle.TabIndex = 6;
+            this.deltelemtoggle.UseVisualStyleBackColor = true;
+            this.deltelemtoggle.CheckedChanged += new System.EventHandler(this.deltelemtoggle_CheckedChanged);
+            // 
             // Clearfrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,9 +210,9 @@ namespace optimizator.Forms
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.toggleSwitch3);
-            this.Controls.Add(this.toggleSwitch2);
-            this.Controls.Add(this.toggleSwitch1);
+            this.Controls.Add(this.deeptoggle);
+            this.Controls.Add(this.musortoggle);
+            this.Controls.Add(this.deltelemtoggle);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
@@ -235,9 +235,9 @@ namespace optimizator.Forms
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private Controllers.ToggleSwitch toggleSwitch1;
-        private Controllers.ToggleSwitch toggleSwitch2;
-        private Controllers.ToggleSwitch toggleSwitch3;
+        private Controllers.ToggleSwitch deltelemtoggle;
+        private Controllers.ToggleSwitch musortoggle;
+        private Controllers.ToggleSwitch deeptoggle;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
