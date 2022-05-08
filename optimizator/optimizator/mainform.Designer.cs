@@ -78,8 +78,8 @@ namespace optimizator
             // 
             this.panelmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.panelmenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelmenu.Controls.Add(this.parametrbtn);
             this.panelmenu.Controls.Add(this.servicebtn);
+            this.panelmenu.Controls.Add(this.parametrbtn);
             this.panelmenu.Controls.Add(this.clearbtn);
             this.panelmenu.Controls.Add(this.tweakbtn);
             resources.ApplyResources(this.panelmenu, "panelmenu");

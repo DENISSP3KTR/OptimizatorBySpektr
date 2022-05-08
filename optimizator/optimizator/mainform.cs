@@ -55,7 +55,9 @@ namespace optimizator
         }
         private void mainform_Load(object sender, EventArgs e)
         {
-            
+            ToolTip t = new ToolTip();
+            t.SetToolTip(closeBtn, "Выход");
+            t.SetToolTip(collapseBtn, "Свернуть");
         }
 
         private void closeBtn_MouseEnter(object sender, EventArgs e)

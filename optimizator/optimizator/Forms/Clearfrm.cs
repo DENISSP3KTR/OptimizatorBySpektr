@@ -31,5 +31,14 @@ namespace optimizator.Forms
         {
             v.LabelVisible(deeptoggle, label9);
         }
+
+        private void Clearfrm_Load(object sender, EventArgs e)
+        {
+            ToolTip t = new ToolTip();
+            t.ToolTipTitle = "Рекомендуется";
+            t.SetToolTip(label1, "Удаление сбора информации");
+            t.SetToolTip(label4, "Удаление ненужного мусора");
+            t.SetToolTip(label6, "Углубленное удаление мусора. Удаляет остатки файлов обновлений, удаляет кэш загрузок, DNS, браузеров");
+        }
     }
 }

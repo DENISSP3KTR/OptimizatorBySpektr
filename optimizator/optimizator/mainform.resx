@@ -264,17 +264,56 @@
   <data name="&gt;&gt;collapseBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;parametrbtn.Name" xml:space="preserve">
-    <value>parametrbtn</value>
+  <data name="servicebtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;parametrbtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="servicebtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 15.75pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;parametrbtn.Parent" xml:space="preserve">
-    <value>panelmenu</value>
+  <data name="servicebtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AElFTkSuQmCC
+</value>
   </data>
-  <data name="&gt;&gt;parametrbtn.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="servicebtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="servicebtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 64</value>
+  </data>
+  <data name="servicebtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 64</value>
+  </data>
+  <data name="servicebtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="servicebtn.Text" xml:space="preserve">
+    <value>Службы</value>
   </data>
   <data name="&gt;&gt;servicebtn.Name" xml:space="preserve">
     <value>servicebtn</value>
@@ -286,55 +325,7 @@
     <value>panelmenu</value>
   </data>
   <data name="&gt;&gt;servicebtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;clearbtn.Name" xml:space="preserve">
-    <value>clearbtn</value>
-  </data>
-  <data name="&gt;&gt;clearbtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;clearbtn.Parent" xml:space="preserve">
-    <value>panelmenu</value>
-  </data>
-  <data name="&gt;&gt;clearbtn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tweakbtn.Name" xml:space="preserve">
-    <value>tweakbtn</value>
-  </data>
-  <data name="&gt;&gt;tweakbtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tweakbtn.Parent" xml:space="preserve">
-    <value>panelmenu</value>
-  </data>
-  <data name="&gt;&gt;tweakbtn.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="panelmenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="panelmenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="panelmenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 496</value>
-  </data>
-  <data name="panelmenu.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.Name" xml:space="preserve">
-    <value>panelmenu</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="parametrbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -400,7 +391,7 @@
     <value>NoControl</value>
   </data>
   <data name="parametrbtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 182</value>
+    <value>-1, 128</value>
   </data>
   <data name="parametrbtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 64</value>
@@ -421,69 +412,6 @@
     <value>panelmenu</value>
   </data>
   <data name="&gt;&gt;parametrbtn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="servicebtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="servicebtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 15.75pt, style=Bold</value>
-  </data>
-  <data name="servicebtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAWcSURBVHhe7Z3Zy3VjGMZfs4QyHRiOFKdKxCFnhBMROUamP4By4EARJ3xFjh3IkANDEhlOzEMi
-        UyiZSpkyJLPrYj/1dPesvdbz3Nez9vvtdf/qF9+y9/Ws976+vdZrT2snCIIgCIIgCIJgF3MgvA6+DH+G
-        /4Rr5YxegtdCzk7KcfBNWFo4HPcNeCyUwHajDL+vwwOgGx6mSguE9V4N3fCckYc+CnkIC9ZzPHwM5rN7
-        Ebr5CeahXCiYxgkwn92P0E0eSBPnwS/g5/BcblhRu33bGZpfM0OBHGza9hk3rKjdvu2knznpZigwCplG
-        +pmTboYCedjhkDncc7hhRe32bWdofs3IAxeGfH7ywIUhn58NDH26KYWG7bophYbtuimFhu26kQcuDPn8
-        5IELQz4/eeDCkM9PHrgw5POTBy4M+fzkgQtDPj954MKQz08euAs4HB4BJW86GEE+P3ngBjgd3grfgr/A
-        9LP8Dt+Bd0Depgf57KgbeeCMnAKfgPZnKMnb9XjE2HXcyAPBfvDelcdwQwcuh79Bu/8ln4QHwx7Ytdyo
-        A/eH98OU9w28Au4LVdwC831eJx8ZB8Fe2PXcqAPvgzaTvgJPg174XtpSfsneZRC7pht14D3QZib/hp7D
-        2EnwV1jKtvY8TOXYdd2oA4+CPEzZ3NwPYQuPwFKeteaRcdjqn63Ytd3IAwHPGTY390tYy8nwL1jKy60p
-        g+9Yfw+e+N+f2rDru5EHAp7Aec6w2cmWQm6Apazc2jLeh7zfjdzQiN0HN/LAFTyBD/2N/hNeAmt4Cpay
-        ci+GU8jLoDzftJKvT93IAzPWneD/gDWlfApLObkPwDFsGZTvSW4lz6Fu5IEZPMG/DT9ZyRLytWpKmfIx
-        O97mEDgEy/gA2vvx6ZZWbJYbeeAaOPzWUvhW//x+Q14ESwyVQfmRjFZslht54AitpQwN0/ouvBIeDRPr
-        yqB89LZis9zIAyfQUsrDML/9mMx7Gl4Dx8pkdis2y408cCK1pYz9v41Hfs6yFZvlRh5YwdRS9oF3wfx2
-        KvlUDH/5aMXmuZEHVjJWCsu4E+b/XSmL9mDz3MgDGxgq5VLYs4yv4ZHQg810Iw9spFQKnx3O/6yUL++e
-        Db3YXDfyQAelUnrIVxovgwpstht5oBMepno+Mvg5yLOgCpvvRh7ooOcJ/HvIl369r39Y7Dpu5IGNeMrY
-        Ay+Ed8Pn4EfwY/g85BOcfDrlUNgDuy9u5IENeMrgwHn/TWH3x408sJK9uQxi98mNPLCCvb0MYvfLjTxw
-        IttQBrH75kYeOAFPGbzfUBnXwzP+/9fZsPvnRh44Qq9Hxk2Qt/kBnskNM2H30Y08cA29y0jOWUq+LnUj
-        DxxgrjKSc5Vi13UjDywwdxnJOUqxa7qRBxo8ZfB+Q2XwBF66j5Wl9DzR2/XcyAMzej0yyKnwW1i6r7Xn
-        I8Wu5UYeuKJnGYndUIpdx408EMxRRmLTpdg13KgD5ywjsclSbL4bZeAmykhsqhSb7UYZeDu0eVNkiZ4y
-        EvxtisMurWHl7RS/fdlcN6rAC6DNmqKqjMTcpdhMN6pAvlJns8ZUl5GoKYUv7fLTWa3YPDeqwNqr8vQq
-        I1FTyoOwFZvlRhVor7Kwzt5lJKaW8hVsxWa5UQVOPWTNVUZiSilbWcj50GZZ5y4jMVbKVh6yyM3Q5iVv
-        g5soI8FSeAK3+/Ud3MqTeoKPlGchT/I8rzwDebGX3QAH/xDkIYrykcFvh/Cgnp8+cGHI5ycPXBjy+ckD
-        F4Z8fvLAhSGfnzxwYcjnJw9cGPL52W9IiAtLTqfLhSXtpVd5OdEoZRyW8TjMZye59GrNdxiG670KuuHl
-        u3k98NIC4XRfhbLvBeaXs/B64KWFwnFfg5yhFLbL64G/AGte21iqnBFnxcPUHN8xHwRBEARBEARB0MDO
-        zr8HxhYMFhP48AAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="servicebtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="servicebtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 121</value>
-  </data>
-  <data name="servicebtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 64</value>
-  </data>
-  <data name="servicebtn.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="servicebtn.Text" xml:space="preserve">
-    <value>Службы</value>
-  </data>
-  <data name="&gt;&gt;servicebtn.Name" xml:space="preserve">
-    <value>servicebtn</value>
-  </data>
-  <data name="&gt;&gt;servicebtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;servicebtn.Parent" xml:space="preserve">
-    <value>panelmenu</value>
-  </data>
-  <data name="&gt;&gt;servicebtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="clearbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
@@ -517,7 +445,7 @@
     <value>NoControl</value>
   </data>
   <data name="clearbtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 60</value>
+    <value>-1, 192</value>
   </data>
   <data name="clearbtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 64</value>
@@ -595,6 +523,30 @@
   </data>
   <data name="&gt;&gt;tweakbtn.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="panelmenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelmenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="panelmenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 496</value>
+  </data>
+  <data name="panelmenu.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.Name" xml:space="preserve">
+    <value>panelmenu</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="panelfrm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

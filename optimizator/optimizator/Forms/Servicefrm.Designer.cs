@@ -388,6 +388,7 @@ namespace optimizator.Forms
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Servicefrm";
             this.Text = "Servicefrm";
+            this.Load += new System.EventHandler(this.Servicefrm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
