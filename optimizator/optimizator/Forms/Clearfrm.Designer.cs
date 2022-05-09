@@ -29,7 +29,6 @@ namespace optimizator.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,7 +42,6 @@ namespace optimizator.Forms
             this.deeptoggle = new optimizator.Controllers.ToggleSwitch();
             this.musortoggle = new optimizator.Controllers.ToggleSwitch();
             this.deltelemtoggle = new optimizator.Controllers.ToggleSwitch();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -202,10 +200,6 @@ namespace optimizator.Forms
             this.deltelemtoggle.UseVisualStyleBackColor = true;
             this.deltelemtoggle.CheckedChanged += new System.EventHandler(this.deltelemtoggle_CheckedChanged);
             // 
-            // toolTip1
-            // 
-            this.toolTip1.ToolTipTitle = "Подсказка";
-            // 
             // Clearfrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,6 +243,5 @@ namespace optimizator.Forms
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
