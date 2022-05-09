@@ -733,6 +733,7 @@ namespace optimizator.Forms
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Parametrfrm";
             this.Text = "Parametrfrm";
+            this.Load += new System.EventHandler(this.Parametrfrm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

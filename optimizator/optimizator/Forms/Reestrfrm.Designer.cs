@@ -389,6 +389,7 @@ namespace optimizator.Forms
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Reestrfrm";
             this.Text = "Reestrfrm";
+            this.Load += new System.EventHandler(this.Reestrfrm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

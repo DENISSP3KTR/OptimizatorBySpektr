@@ -35,6 +35,7 @@ namespace optimizator.Forms
         private void Clearfrm_Load(object sender, EventArgs e)
         {
             ToolTip t = new ToolTip();
+            t.AutoPopDelay = 500;
             t.ToolTipTitle = "Рекомендуется";
             t.SetToolTip(label1, "Удаление сбора информации");
             t.SetToolTip(label4, "Удаление ненужного мусора");

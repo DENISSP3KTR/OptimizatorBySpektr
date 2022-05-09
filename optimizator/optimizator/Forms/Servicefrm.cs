@@ -51,6 +51,7 @@ namespace optimizator.Forms
         private void Servicefrm_Load(object sender, EventArgs e)
         {
             ToolTip t = new ToolTip();
+            t.AutoPopDelay = 500;
             t.SetToolTip(label1, @"Служба, необходимая для встроенного приложения Карты, 
 чтобы отображать карты, которые скачивает пользователь.
 Рекомендуется отключить, если вы не пользуетесь Картами Windows");
