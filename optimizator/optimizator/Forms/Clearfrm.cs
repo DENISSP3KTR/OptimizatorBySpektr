@@ -45,8 +45,24 @@ namespace optimizator.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Clear cl = new Clear();
-            cl.Musor(musortoggle);
+            //Progress pr = new Progress();
+            //pr.ShowDialog();
+            //pr.timer1.Start();
+            if (!(deeptoggle.Checked || deltelemtoggle.Checked || musortoggle.Checked))
+            {
+                MessageBox.Show("Выберите твик");
+            }
+            else
+            {
+                Clear cl = new Clear();
+                cl.Musor(musortoggle);
+                cl.Telemetry(deltelemtoggle);
+                cl.Ugl(deeptoggle);
+                MessageBox.Show("Успешно применено");
+                musortoggle.Checked = false;
+                deeptoggle.Checked = false;
+                deltelemtoggle.Checked = false;
+            }
         }
     }
 }
