@@ -264,6 +264,78 @@
   <data name="&gt;&gt;collapseBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;servicebtn.Name" xml:space="preserve">
+    <value>servicebtn</value>
+  </data>
+  <data name="&gt;&gt;servicebtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;servicebtn.Parent" xml:space="preserve">
+    <value>panelmenu</value>
+  </data>
+  <data name="&gt;&gt;servicebtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;parametrbtn.Name" xml:space="preserve">
+    <value>parametrbtn</value>
+  </data>
+  <data name="&gt;&gt;parametrbtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;parametrbtn.Parent" xml:space="preserve">
+    <value>panelmenu</value>
+  </data>
+  <data name="&gt;&gt;parametrbtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;clearbtn.Name" xml:space="preserve">
+    <value>clearbtn</value>
+  </data>
+  <data name="&gt;&gt;clearbtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearbtn.Parent" xml:space="preserve">
+    <value>panelmenu</value>
+  </data>
+  <data name="&gt;&gt;clearbtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tweakbtn.Name" xml:space="preserve">
+    <value>tweakbtn</value>
+  </data>
+  <data name="&gt;&gt;tweakbtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tweakbtn.Parent" xml:space="preserve">
+    <value>panelmenu</value>
+  </data>
+  <data name="&gt;&gt;tweakbtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelmenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelmenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="panelmenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 496</value>
+  </data>
+  <data name="panelmenu.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.Name" xml:space="preserve">
+    <value>panelmenu</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelmenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="servicebtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -523,30 +595,6 @@
   </data>
   <data name="&gt;&gt;tweakbtn.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="panelmenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="panelmenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="panelmenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 496</value>
-  </data>
-  <data name="panelmenu.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.Name" xml:space="preserve">
-    <value>panelmenu</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelmenu.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="panelfrm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

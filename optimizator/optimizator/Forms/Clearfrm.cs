@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using optimizator.Controllers;
+using optimizator.ClearClass;
 namespace optimizator.Forms
 {
     public partial class Clearfrm : Form
@@ -35,11 +36,17 @@ namespace optimizator.Forms
         private void Clearfrm_Load(object sender, EventArgs e)
         {
             ToolTip t = new ToolTip();
-            t.AutoPopDelay = 500;
+            t.AutoPopDelay = 10000;
             t.ToolTipTitle = "Рекомендуется";
             t.SetToolTip(label1, "Удаление сбора информации");
             t.SetToolTip(label4, "Удаление ненужного мусора");
             t.SetToolTip(label6, "Углубленное удаление мусора. Удаляет остатки файлов обновлений, удаляет кэш загрузок, DNS, браузеров");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Clear cl = new Clear();
+            cl.Musor(musortoggle);
         }
     }
 }

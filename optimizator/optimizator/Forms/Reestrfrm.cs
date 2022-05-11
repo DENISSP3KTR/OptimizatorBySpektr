@@ -50,7 +50,7 @@ namespace optimizator.Forms
         private void Reestrfrm_Load(object sender, EventArgs e)
         {
             ToolTip t = new ToolTip();
-            t.AutoPopDelay = 500;
+            t.AutoPopDelay = 10000;
             t.SetToolTip(label1, @"Функция гибернации заменяет кнопку завершения работы.
 При работе работе гибернации не очищается память ОЗУ, а также
 не завершают работу процессы системы.

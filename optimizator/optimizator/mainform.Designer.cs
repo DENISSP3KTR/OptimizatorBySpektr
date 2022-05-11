@@ -34,8 +34,8 @@ namespace optimizator
             this.closeBtn = new System.Windows.Forms.PictureBox();
             this.collapseBtn = new System.Windows.Forms.PictureBox();
             this.panelmenu = new System.Windows.Forms.Panel();
-            this.parametrbtn = new System.Windows.Forms.Button();
             this.servicebtn = new System.Windows.Forms.Button();
+            this.parametrbtn = new System.Windows.Forms.Button();
             this.clearbtn = new System.Windows.Forms.Button();
             this.tweakbtn = new System.Windows.Forms.Button();
             this.panelfrm = new System.Windows.Forms.Panel();
@@ -85,15 +85,6 @@ namespace optimizator
             resources.ApplyResources(this.panelmenu, "panelmenu");
             this.panelmenu.Name = "panelmenu";
             // 
-            // parametrbtn
-            // 
-            this.parametrbtn.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.parametrbtn, "parametrbtn");
-            this.parametrbtn.ForeColor = System.Drawing.Color.Gainsboro;
-            this.parametrbtn.Name = "parametrbtn";
-            this.parametrbtn.UseVisualStyleBackColor = true;
-            this.parametrbtn.Click += new System.EventHandler(this.parametrbtn_Click);
-            // 
             // servicebtn
             // 
             this.servicebtn.FlatAppearance.BorderSize = 0;
@@ -102,6 +93,15 @@ namespace optimizator
             this.servicebtn.Name = "servicebtn";
             this.servicebtn.UseVisualStyleBackColor = true;
             this.servicebtn.Click += new System.EventHandler(this.servicebtn_Click);
+            // 
+            // parametrbtn
+            // 
+            this.parametrbtn.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.parametrbtn, "parametrbtn");
+            this.parametrbtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.parametrbtn.Name = "parametrbtn";
+            this.parametrbtn.UseVisualStyleBackColor = true;
+            this.parametrbtn.Click += new System.EventHandler(this.parametrbtn_Click);
             // 
             // clearbtn
             // 

@@ -81,7 +81,7 @@ namespace optimizator.Forms
         private void Parametrfrm_Load(object sender, EventArgs e)
         {
             ToolTip t = new ToolTip();
-            t.AutoPopDelay = 500;
+            t.AutoPopDelay = 10000;
             t.SetToolTip(label1, @"Защитник Windows, защищает от угроз и вирусов в фоне.
 Рекомендуется отключить, если играете в игры, что каждый фпс важен и уверенно пользуетесь интернетом.");
             t.SetToolTip(label4, @"Автообновление Windows может начаться самое неудобное время(во время игры,
