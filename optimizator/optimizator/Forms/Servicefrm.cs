@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using optimizator.Controllers;
-
+using optimizator.Functions;
 namespace optimizator.Forms
 {
     public partial class Servicefrm : Form
@@ -66,6 +66,44 @@ namespace optimizator.Forms
 Если у вас достаточно мощный ПК с объёмом оперативной памяти выше 8 ГБ, у вас SSD, и сценарий использования Windows может меняться – вам не нужна эта служба.");
             t.SetToolTip(label14, @"Служба, отвечающая за соединение Магазина Windows с серверами Microsoft.
 Рекомендуется отключить, если вы не пользуетесь Магазином Windows");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int p = 0;
+            Progressbar pr = new Progressbar();
+            if(KARTYtoggle.Checked || XBOXtoggle.Checked || Printtoggle.Checked || Bluetoothtoggle.Checked || Sysmaintoggle.Checked || Storetoggle.Checked)
+            {
+                Service sr = new Service();
+                while (p != 1)
+                {
+                    Task t = new Task(() =>
+                    {
+                        sr.Sysmain(Sysmaintoggle);
+                        sr.Cart(KARTYtoggle);
+                        sr.Bluetooth(Bluetoothtoggle);
+                        sr.MStore(Storetoggle);
+                        sr.Printer(Printtoggle);
+                        sr.Xbox(XBOXtoggle);
+                    });
+                    t.Start();
+                    t.Wait();
+                    p = 1;
+                }
+                MessageBox.Show(@"     Успешно применено
+Не забудьте перезагрузить ПК
+  для применения твиков");
+                KARTYtoggle.Checked = false;
+                XBOXtoggle.Checked = false;
+                Printtoggle.Checked = false;
+                Bluetoothtoggle.Checked = false;
+                Sysmaintoggle.Checked = false;
+                Storetoggle.Checked = false;
+            }
+            else
+            {
+                MessageBox.Show("Выберите службу/ы");
+            }
         }
     }
 }

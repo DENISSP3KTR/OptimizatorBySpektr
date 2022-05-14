@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using optimizator.Controllers;
-using optimizator.ClearClass;
+using optimizator.Functions;
 namespace optimizator.Forms
 {
     public partial class Clearfrm : Form
@@ -45,7 +45,9 @@ namespace optimizator.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Progress pr = new Progress();
+            //Progressbar pr = new Progressbar();
+            int p = 0;
+            Clear cl = new Clear();
             //pr.ShowDialog();
             //pr.timer1.Start();
             if (!(deeptoggle.Checked || deltelemtoggle.Checked || musortoggle.Checked))
@@ -54,11 +56,16 @@ namespace optimizator.Forms
             }
             else
             {
-                Clear cl = new Clear();
-                cl.Musor(musortoggle);
-                cl.Telemetry(deltelemtoggle);
-                cl.Ugl(deeptoggle);
-                MessageBox.Show("Успешно применено");
+                while(p!=1)
+                {
+                    cl.Musor(musortoggle);
+                    cl.Telemetry(deltelemtoggle);
+                    cl.Ugl(deeptoggle);
+                    p = 1;
+                }
+                MessageBox.Show(@"     Успешно применено
+Не забудьте перезагрузить ПК
+  для применения твиков");
                 musortoggle.Checked = false;
                 deeptoggle.Checked = false;
                 deltelemtoggle.Checked = false;

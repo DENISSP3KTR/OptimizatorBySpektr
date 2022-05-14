@@ -14,4 +14,4 @@ D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Form
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.csproj.AssemblyReference.cache
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\Interop.Shell32.dll
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.csproj.ResolveComReference.cache
-D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Progress.resources
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Progressbar.resources

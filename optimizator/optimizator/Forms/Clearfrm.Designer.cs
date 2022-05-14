@@ -42,6 +42,7 @@ namespace optimizator.Forms
             this.deeptoggle = new optimizator.Controllers.ToggleSwitch();
             this.musortoggle = new optimizator.Controllers.ToggleSwitch();
             this.deltelemtoggle = new optimizator.Controllers.ToggleSwitch();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // label1
@@ -201,12 +202,20 @@ namespace optimizator.Forms
             this.deltelemtoggle.UseVisualStyleBackColor = true;
             this.deltelemtoggle.CheckedChanged += new System.EventHandler(this.deltelemtoggle_CheckedChanged);
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(17, 266);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(272, 23);
+            this.progressBar1.TabIndex = 13;
+            // 
             // Clearfrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(627, 245);
+            this.ClientSize = new System.Drawing.Size(627, 358);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -244,5 +253,6 @@ namespace optimizator.Forms
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
