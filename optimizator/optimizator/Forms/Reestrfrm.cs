@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using optimizator.Controllers;
+using optimizator.Functions;
 namespace optimizator.Forms
 {
     public partial class Reestrfrm : Form
@@ -70,6 +71,44 @@ namespace optimizator.Forms
             t.SetToolTip(label14, @"Патчи Spectre и Meltdown защищают ПК от аппаратных уязвимостей,
 но снижающие производительность на 30%.
 Рекомендуется отключить, если вы уверенно пользуетесь интернетом, не захватите вирус.");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(gybertoggle.Checked || UACtoggle.Checked || AutoUptoggle.Checked || FSOtoggle.Checked || LANEnertoggle.Checked || SMTtoggle.Checked)
+            {
+                int p = 0;
+                Progressbar pr = new Progressbar();
+                if (p == 0)
+                {
+                    pr.Show();
+                }
+                reestr r = new reestr();
+                r.gyber(gybertoggle);
+                r.uac(UACtoggle);
+                r.AutoUp(AutoUptoggle);
+                r.FSO(FSOtoggle);
+                r.LANEner(LANEnertoggle);
+                r.SMT(SMTtoggle);
+                p = 1;
+                if (p == 1)
+                {
+                    pr.Close();
+                }
+                MessageBox.Show(@"     Успешно применено
+Не забудьте перезагрузить ПК
+  для применения твиков");
+                gybertoggle.Checked = false;
+                UACtoggle.Checked = false;
+                AutoUptoggle.Checked = false;
+                FSOtoggle.Checked = false;
+                LANEnertoggle.Checked = false;
+                SMTtoggle.Checked = false;
+            }
+            else
+            {
+                MessageBox.Show("Выберите твик");
+            }
         }
     }
 }

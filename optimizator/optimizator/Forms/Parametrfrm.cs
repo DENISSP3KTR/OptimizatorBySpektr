@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using optimizator.Controllers;
+using optimizator.Functions;
 
 namespace optimizator.Forms
 {
@@ -117,6 +118,50 @@ namespace optimizator.Forms
             t.SetToolTip(label14, @"В ОС есть много анимации при отрытии папок, приложений и т.д.
 Отключение этой функции даст вам прирост производительности, но плавность и сглаженность Windows значительно уменьшиться.
 Рекомендуется отключить.");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(accelltoggle.Checked || updatetoggle.Checked || deftoggle.Checked || firewalltoggle.Checked || smartsctoggle.Checked || messagetoggle.Checked || gamebartoggle.Checked || zaliptoggle.Checked || fonappstoggle.Checked || telemetrytoggle.Checked || autorunstoggle.Checked || fastdotoggle.Checked)
+            {
+                parametr p = new parametr();
+                Task t = new Task(() =>
+                {
+                    p.autoruns(autorunstoggle);
+                    p.defender(deftoggle);
+                    p.fastdo(fastdotoggle);
+                    p.firewall(firewalltoggle);
+                    p.fon(fonappstoggle);
+                    p.gamebar(gamebartoggle);
+                    p.message(messagetoggle);
+                    p.mousespeed(accelltoggle);
+                    p.smartscreen(smartsctoggle);
+                    p.telemetry(telemetrytoggle);
+                    p.updatewin(updatetoggle);
+                    p.zalip(zaliptoggle);
+                });
+                t.Start();
+                t.Wait();
+                MessageBox.Show(@"     Успешно применено
+Не забудьте перезагрузить ПК
+  для применения твиков");
+                autorunstoggle.Checked = false;
+                deftoggle.Checked = false;
+                fastdotoggle.Checked = false;
+                firewalltoggle.Checked = false;
+                fonappstoggle.Checked = false;
+                gamebartoggle.Checked = false;
+                messagetoggle.Checked = false;
+                accelltoggle.Checked = false;
+                smartsctoggle.Checked = false;
+                telemetrytoggle.Checked = false;
+                updatetoggle.Checked = false;
+                zaliptoggle.Checked = false;
+            }
+            else
+            {
+                MessageBox.Show("Выберите твик");
+            }
         }
     }
 }

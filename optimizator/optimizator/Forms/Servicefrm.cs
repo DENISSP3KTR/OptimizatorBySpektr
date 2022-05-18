@@ -74,6 +74,10 @@ namespace optimizator.Forms
             Progressbar pr = new Progressbar();
             if(KARTYtoggle.Checked || XBOXtoggle.Checked || Printtoggle.Checked || Bluetoothtoggle.Checked || Sysmaintoggle.Checked || Storetoggle.Checked)
             {
+                if (p == 0)
+                {
+                    pr.Show();
+                }
                 Service sr = new Service();
                 while (p != 1)
                 {
@@ -90,6 +94,7 @@ namespace optimizator.Forms
                     t.Wait();
                     p = 1;
                 }
+                pr.Close();
                 MessageBox.Show(@"     Успешно применено
 Не забудьте перезагрузить ПК
   для применения твиков");

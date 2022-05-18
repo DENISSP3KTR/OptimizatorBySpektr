@@ -84,7 +84,9 @@
     <Compile Include="Forms\Servicefrm.Designer.cs">
       <DependentUpon>Servicefrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Functions\parametr.cs" />
     <Compile Include="Functions\proverka.cs" />
+    <Compile Include="Functions\reestr.cs" />
     <Compile Include="Functions\Service.cs" />
     <Compile Include="mainform.cs">
       <SubType>Form</SubType>
