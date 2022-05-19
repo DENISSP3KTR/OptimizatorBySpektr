@@ -1,6 +1,6 @@
 # Оптимизатор Windows
 
-[DOWNLOAD]:https://cloclo57.datacloudmail.ru/attach/7YuUHgx9TA29WcsqZwuDB6abzptoqmriaMApkcKHTzj9q4wMSH8jzZgc4LGPJ8LUjsaWRR/djspektr2001@mail.ru/%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80/optimizator.exe
+[DOWNLOAD](https://cloclo57.datacloudmail.ru/attach/7YuUHgx9TA29WcsqZwuDB6abzptoqmriaMApkcKHTzj9q4wMSH8jzZgc4LGPJ8LUjsaWRR/djspektr2001@mail.ru/%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80/optimizator.exe)
 
 
 ## Описание
