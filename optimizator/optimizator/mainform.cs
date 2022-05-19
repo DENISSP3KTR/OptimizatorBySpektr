@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using optimizator.Forms;
-
+using optimizator.Properties;
 namespace optimizator
 {
     public partial class mainform : Form
@@ -17,8 +17,6 @@ namespace optimizator
         {
             InitializeComponent();
         }
-        Image closeicon1 = Image.FromFile("D:/github/optimizatorbyspektr/img/closeicon.png");
-        Image closeicon2 = Image.FromFile("D:/github/optimizatorbyspektr/img/closeicon2.png");
         public int state = 0;
         private void closeBtn_Click(object sender, EventArgs e)
         {
@@ -62,12 +60,12 @@ namespace optimizator
 
         private void closeBtn_MouseEnter(object sender, EventArgs e)
         {
-            closeBtn.Image = closeicon2;
+            closeBtn.Image = Resources.closeicon2;
         }
 
         private void closeBtn_MouseLeave(object sender, EventArgs e)
         {
-            closeBtn.Image = closeicon1;
+            closeBtn.Image = Resources.closeicon;
         }
 
         private void collapseBtn_Click(object sender, EventArgs e)

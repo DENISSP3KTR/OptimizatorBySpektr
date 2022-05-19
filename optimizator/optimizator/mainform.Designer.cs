@@ -31,18 +31,18 @@ namespace optimizator
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainform));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.closeBtn = new System.Windows.Forms.PictureBox();
-            this.collapseBtn = new System.Windows.Forms.PictureBox();
             this.panelmenu = new System.Windows.Forms.Panel();
+            this.panelfrm = new System.Windows.Forms.Panel();
             this.servicebtn = new System.Windows.Forms.Button();
             this.parametrbtn = new System.Windows.Forms.Button();
             this.clearbtn = new System.Windows.Forms.Button();
             this.tweakbtn = new System.Windows.Forms.Button();
-            this.panelfrm = new System.Windows.Forms.Panel();
+            this.closeBtn = new System.Windows.Forms.PictureBox();
+            this.collapseBtn = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            this.panelmenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).BeginInit();
-            this.panelmenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -53,26 +53,6 @@ namespace optimizator
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            // 
-            // closeBtn
-            // 
-            resources.ApplyResources(this.closeBtn, "closeBtn");
-            this.closeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.closeBtn.Name = "closeBtn";
-            this.closeBtn.TabStop = false;
-            this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
-            this.closeBtn.MouseEnter += new System.EventHandler(this.closeBtn_MouseEnter);
-            this.closeBtn.MouseLeave += new System.EventHandler(this.closeBtn_MouseLeave);
-            // 
-            // collapseBtn
-            // 
-            resources.ApplyResources(this.collapseBtn, "collapseBtn");
-            this.collapseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.collapseBtn.Name = "collapseBtn";
-            this.collapseBtn.TabStop = false;
-            this.collapseBtn.Click += new System.EventHandler(this.collapseBtn_Click);
-            this.collapseBtn.MouseEnter += new System.EventHandler(this.collapseBtn_MouseEnter);
-            this.collapseBtn.MouseLeave += new System.EventHandler(this.collapseBtn_MouseLeave);
             // 
             // panelmenu
             // 
@@ -85,11 +65,18 @@ namespace optimizator
             resources.ApplyResources(this.panelmenu, "panelmenu");
             this.panelmenu.Name = "panelmenu";
             // 
+            // panelfrm
+            // 
+            this.panelfrm.BackColor = System.Drawing.Color.DimGray;
+            resources.ApplyResources(this.panelfrm, "panelfrm");
+            this.panelfrm.Name = "panelfrm";
+            // 
             // servicebtn
             // 
             this.servicebtn.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.servicebtn, "servicebtn");
             this.servicebtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.servicebtn.Image = global::optimizator.Properties.Resources.serviceicon;
             this.servicebtn.Name = "servicebtn";
             this.servicebtn.UseVisualStyleBackColor = true;
             this.servicebtn.Click += new System.EventHandler(this.servicebtn_Click);
@@ -99,6 +86,7 @@ namespace optimizator
             this.parametrbtn.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.parametrbtn, "parametrbtn");
             this.parametrbtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.parametrbtn.Image = global::optimizator.Properties.Resources.parametricon;
             this.parametrbtn.Name = "parametrbtn";
             this.parametrbtn.UseVisualStyleBackColor = true;
             this.parametrbtn.Click += new System.EventHandler(this.parametrbtn_Click);
@@ -108,6 +96,7 @@ namespace optimizator
             this.clearbtn.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.clearbtn, "clearbtn");
             this.clearbtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.clearbtn.Image = global::optimizator.Properties.Resources.musoricon;
             this.clearbtn.Name = "clearbtn";
             this.clearbtn.UseVisualStyleBackColor = true;
             this.clearbtn.Click += new System.EventHandler(this.clearbtn_Click);
@@ -117,15 +106,32 @@ namespace optimizator
             this.tweakbtn.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.tweakbtn, "tweakbtn");
             this.tweakbtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.tweakbtn.Image = global::optimizator.Properties.Resources.reestricon;
             this.tweakbtn.Name = "tweakbtn";
             this.tweakbtn.UseVisualStyleBackColor = true;
             this.tweakbtn.Click += new System.EventHandler(this.tweakbtn_Click);
             // 
-            // panelfrm
+            // closeBtn
             // 
-            this.panelfrm.BackColor = System.Drawing.Color.DimGray;
-            resources.ApplyResources(this.panelfrm, "panelfrm");
-            this.panelfrm.Name = "panelfrm";
+            resources.ApplyResources(this.closeBtn, "closeBtn");
+            this.closeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.closeBtn.Image = global::optimizator.Properties.Resources.closeicon;
+            this.closeBtn.Name = "closeBtn";
+            this.closeBtn.TabStop = false;
+            this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
+            this.closeBtn.MouseEnter += new System.EventHandler(this.closeBtn_MouseEnter);
+            this.closeBtn.MouseLeave += new System.EventHandler(this.closeBtn_MouseLeave);
+            // 
+            // collapseBtn
+            // 
+            resources.ApplyResources(this.collapseBtn, "collapseBtn");
+            this.collapseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.collapseBtn.Image = global::optimizator.Properties.Resources.collapseicon;
+            this.collapseBtn.Name = "collapseBtn";
+            this.collapseBtn.TabStop = false;
+            this.collapseBtn.Click += new System.EventHandler(this.collapseBtn_Click);
+            this.collapseBtn.MouseEnter += new System.EventHandler(this.collapseBtn_MouseEnter);
+            this.collapseBtn.MouseLeave += new System.EventHandler(this.collapseBtn_MouseLeave);
             // 
             // mainform
             // 
@@ -142,9 +148,9 @@ namespace optimizator
             this.ShowIcon = false;
             this.Load += new System.EventHandler(this.mainform_Load);
             this.panel1.ResumeLayout(false);
+            this.panelmenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).EndInit();
-            this.panelmenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
