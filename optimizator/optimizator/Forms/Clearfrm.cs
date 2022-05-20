@@ -45,24 +45,21 @@ namespace optimizator.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Progressbar pr = new Progressbar();
-            int p = 0;
             Clear cl = new Clear();
-            //pr.ShowDialog();
-            //pr.timer1.Start();
             if (!(deeptoggle.Checked || deltelemtoggle.Checked || musortoggle.Checked))
             {
                 MessageBox.Show("Выберите твик");
             }
             else
             {
-                while(p!=1)
+                Task t = new Task(() =>
                 {
                     cl.Musor(musortoggle);
                     cl.Telemetry(deltelemtoggle);
                     cl.Ugl(deeptoggle);
-                    p = 1;
-                }
+                });
+                t.Start();
+                t.Wait();
                 MessageBox.Show(@"     Успешно применено
 Не забудьте перезагрузить ПК
   для применения твиков");

@@ -70,31 +70,20 @@ namespace optimizator.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int p = 0;
-            Progressbar pr = new Progressbar();
             if(KARTYtoggle.Checked || XBOXtoggle.Checked || Printtoggle.Checked || Bluetoothtoggle.Checked || Sysmaintoggle.Checked || Storetoggle.Checked)
             {
-                if (p == 0)
-                {
-                    pr.Show();
-                }
                 Service sr = new Service();
-                while (p != 1)
+                Task t = new Task(() =>
                 {
-                    Task t = new Task(() =>
-                    {
-                        sr.Sysmain(Sysmaintoggle);
-                        sr.Cart(KARTYtoggle);
-                        sr.Bluetooth(Bluetoothtoggle);
-                        sr.MStore(Storetoggle);
-                        sr.Printer(Printtoggle);
-                        sr.Xbox(XBOXtoggle);
-                    });
-                    t.Start();
-                    t.Wait();
-                    p = 1;
-                }
-                pr.Close();
+                    sr.Sysmain(Sysmaintoggle);
+                    sr.Cart(KARTYtoggle);
+                    sr.Bluetooth(Bluetoothtoggle);
+                    sr.MStore(Storetoggle);
+                    sr.Printer(Printtoggle);
+                    sr.Xbox(XBOXtoggle);
+                });
+                t.Start();
+                t.Wait();
                 MessageBox.Show(@"     Успешно применено
 Не забудьте перезагрузить ПК
   для применения твиков");

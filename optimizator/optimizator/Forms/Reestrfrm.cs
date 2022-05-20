@@ -77,24 +77,18 @@ namespace optimizator.Forms
         {
             if(gybertoggle.Checked || UACtoggle.Checked || AutoUptoggle.Checked || FSOtoggle.Checked || LANEnertoggle.Checked || SMTtoggle.Checked)
             {
-                int p = 0;
-                Progressbar pr = new Progressbar();
-                if (p == 0)
-                {
-                    pr.Show();
-                }
                 reestr r = new reestr();
-                r.gyber(gybertoggle);
-                r.uac(UACtoggle);
-                r.AutoUp(AutoUptoggle);
-                r.FSO(FSOtoggle);
-                r.LANEner(LANEnertoggle);
-                r.SMT(SMTtoggle);
-                p = 1;
-                if (p == 1)
+                Task t = new Task(() =>
                 {
-                    pr.Close();
-                }
+                    r.gyber(gybertoggle);
+                    r.uac(UACtoggle);
+                    r.AutoUp(AutoUptoggle);
+                    r.FSO(FSOtoggle);
+                    r.LANEner(LANEnertoggle);
+                    r.SMT(SMTtoggle);
+                });
+                t.Start();
+                t.Wait();
                 MessageBox.Show(@"     Успешно применено
 Не забудьте перезагрузить ПК
   для применения твиков");
