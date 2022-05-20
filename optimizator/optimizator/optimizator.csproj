@@ -95,12 +95,6 @@
     <Compile Include="Forms\Parametrfrm.Designer.cs">
       <DependentUpon>Parametrfrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Progressbar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Progressbar.Designer.cs">
-      <DependentUpon>Progressbar.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Reestrfrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,9 +124,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Parametrfrm.resx">
       <DependentUpon>Parametrfrm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Progressbar.resx">
-      <DependentUpon>Progressbar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Reestrfrm.resx">
       <DependentUpon>Reestrfrm.cs</DependentUpon>
