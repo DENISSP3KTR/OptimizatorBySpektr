@@ -11,7 +11,11 @@ D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Form
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Parametrfrm.resources
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Reestrfrm.resources
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Servicefrm.resources
-D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.csproj.AssemblyReference.cache
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\Interop.Shell32.dll
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.csproj.ResolveComReference.cache
-D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Progressbar.resources
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.exe.manifest
+D:\github\optimizatorbyspektr\optimizator\optimizator\bin\Debug\optimizator.exe.manifest
+D:\github\optimizatorbyspektr\optimizator\optimizator\bin\Debug\optimizator.application
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.application
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.Forms.Form1.resources
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Debug\optimizator.csproj.AssemblyReference.cache

@@ -74,8 +74,8 @@ namespace optimizator.Functions
                     key = Registry.CurrentUser.CreateSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR");
                     key.SetValue("AppCaptureEnabled", 00000000);
                     key = Registry.CurrentUser.CreateSubKey(@"System\GameConfigStore");
-                    key.DeleteValue("Win32_AutoGameModeDefaultProfile");
-                    key.DeleteValue("Win32_GameModeRelatedProcesses");
+                    key.SetValue("Win32_AutoGameModeDefaultProfile", "-");
+                    key.SetValue("Win32_GameModeRelatedProcesses", "-");
                     key.SetValue("GameDVR_DSEBehavior", 00000002);
                     key.SetValue("GameDVR_DXGIHonorFSEWindowsCompatible", 00000001);
                     key.SetValue("GameDVR_EFSEFeatureFlags", 00000000);

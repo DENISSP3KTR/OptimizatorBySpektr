@@ -16,3 +16,4 @@ D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Release\optimizator.cs
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Release\optimizator.exe
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Release\optimizator.pdb
 D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Release\optimizator.exe.manifest
+D:\github\optimizatorbyspektr\optimizator\optimizator\obj\Release\optimizator.Forms.Form1.resources

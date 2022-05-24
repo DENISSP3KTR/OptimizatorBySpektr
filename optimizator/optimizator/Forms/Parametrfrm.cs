@@ -141,7 +141,10 @@ namespace optimizator.Forms
                     p.zalip(zaliptoggle);
                 });
                 t.Start();
+                Form1 frm = new Form1();
+                frm.Show();
                 t.Wait();
+                frm.Close();
                 MessageBox.Show(@"     Успешно применено
 Не забудьте перезагрузить ПК
   для применения твиков");
