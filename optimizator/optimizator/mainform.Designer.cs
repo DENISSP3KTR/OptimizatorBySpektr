@@ -29,7 +29,6 @@ namespace optimizator
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainform));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,7 +41,6 @@ namespace optimizator
             this.clearbtn = new System.Windows.Forms.Button();
             this.tweakbtn = new System.Windows.Forms.Button();
             this.panelfrm = new System.Windows.Forms.Panel();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).BeginInit();
@@ -152,10 +150,6 @@ namespace optimizator
             resources.ApplyResources(this.panelfrm, "panelfrm");
             this.panelfrm.Name = "panelfrm";
             // 
-            // notifyIcon1
-            // 
-            resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
-            // 
             // mainform
             // 
             resources.ApplyResources(this, "$this");
@@ -191,7 +185,6 @@ namespace optimizator
         private System.Windows.Forms.PictureBox closeBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 
