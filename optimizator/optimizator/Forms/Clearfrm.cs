@@ -48,7 +48,7 @@ namespace optimizator.Forms
             Clear cl = new Clear();
             if (!(deeptoggle.Checked || deltelemtoggle.Checked || musortoggle.Checked))
             {
-                MessageBox.Show("Выберите твик");
+                MessageBox.Show("Выберите твик", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {

@@ -99,7 +99,7 @@ namespace optimizator.Forms
             }
             else
             {
-                MessageBox.Show("Выберите службу/ы");
+                MessageBox.Show("Выберите службу/ы", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

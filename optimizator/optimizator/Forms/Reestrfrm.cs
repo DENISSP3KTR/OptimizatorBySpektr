@@ -101,7 +101,7 @@ namespace optimizator.Forms
             }
             else
             {
-                MessageBox.Show("Выберите твик");
+                MessageBox.Show("Выберите твик", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
