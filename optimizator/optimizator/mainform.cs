@@ -56,6 +56,7 @@ namespace optimizator
             ToolTip t = new ToolTip();
             t.SetToolTip(closeBtn, "Выход");
             t.SetToolTip(collapseBtn, "Свернуть");
+            this.Icon = Resources.windicon1;
         }
 
         private void closeBtn_MouseEnter(object sender, EventArgs e)

@@ -29,30 +29,71 @@ namespace optimizator
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainform));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.closeBtn = new System.Windows.Forms.PictureBox();
+            this.collapseBtn = new System.Windows.Forms.PictureBox();
             this.panelmenu = new System.Windows.Forms.Panel();
-            this.panelfrm = new System.Windows.Forms.Panel();
             this.servicebtn = new System.Windows.Forms.Button();
             this.parametrbtn = new System.Windows.Forms.Button();
             this.clearbtn = new System.Windows.Forms.Button();
             this.tweakbtn = new System.Windows.Forms.Button();
-            this.closeBtn = new System.Windows.Forms.PictureBox();
-            this.collapseBtn = new System.Windows.Forms.PictureBox();
+            this.panelfrm = new System.Windows.Forms.Panel();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1.SuspendLayout();
-            this.panelmenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).BeginInit();
+            this.panelmenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(134)))), ((int)(((byte)(194)))));
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.closeBtn);
             this.panel1.Controls.Add(this.collapseBtn);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::optimizator.Properties.Resources.windicon;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // closeBtn
+            // 
+            resources.ApplyResources(this.closeBtn, "closeBtn");
+            this.closeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.closeBtn.Image = global::optimizator.Properties.Resources.closeicon;
+            this.closeBtn.Name = "closeBtn";
+            this.closeBtn.TabStop = false;
+            this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
+            this.closeBtn.MouseEnter += new System.EventHandler(this.closeBtn_MouseEnter);
+            this.closeBtn.MouseLeave += new System.EventHandler(this.closeBtn_MouseLeave);
+            // 
+            // collapseBtn
+            // 
+            resources.ApplyResources(this.collapseBtn, "collapseBtn");
+            this.collapseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.collapseBtn.Image = global::optimizator.Properties.Resources.collapseicon;
+            this.collapseBtn.Name = "collapseBtn";
+            this.collapseBtn.TabStop = false;
+            this.collapseBtn.Click += new System.EventHandler(this.collapseBtn_Click);
+            this.collapseBtn.MouseEnter += new System.EventHandler(this.collapseBtn_MouseEnter);
+            this.collapseBtn.MouseLeave += new System.EventHandler(this.collapseBtn_MouseLeave);
             // 
             // panelmenu
             // 
@@ -64,12 +105,6 @@ namespace optimizator
             this.panelmenu.Controls.Add(this.tweakbtn);
             resources.ApplyResources(this.panelmenu, "panelmenu");
             this.panelmenu.Name = "panelmenu";
-            // 
-            // panelfrm
-            // 
-            this.panelfrm.BackColor = System.Drawing.Color.DimGray;
-            resources.ApplyResources(this.panelfrm, "panelfrm");
-            this.panelfrm.Name = "panelfrm";
             // 
             // servicebtn
             // 
@@ -111,27 +146,15 @@ namespace optimizator
             this.tweakbtn.UseVisualStyleBackColor = true;
             this.tweakbtn.Click += new System.EventHandler(this.tweakbtn_Click);
             // 
-            // closeBtn
+            // panelfrm
             // 
-            resources.ApplyResources(this.closeBtn, "closeBtn");
-            this.closeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.closeBtn.Image = global::optimizator.Properties.Resources.closeicon;
-            this.closeBtn.Name = "closeBtn";
-            this.closeBtn.TabStop = false;
-            this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
-            this.closeBtn.MouseEnter += new System.EventHandler(this.closeBtn_MouseEnter);
-            this.closeBtn.MouseLeave += new System.EventHandler(this.closeBtn_MouseLeave);
+            this.panelfrm.BackColor = System.Drawing.Color.DimGray;
+            resources.ApplyResources(this.panelfrm, "panelfrm");
+            this.panelfrm.Name = "panelfrm";
             // 
-            // collapseBtn
+            // notifyIcon1
             // 
-            resources.ApplyResources(this.collapseBtn, "collapseBtn");
-            this.collapseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.collapseBtn.Image = global::optimizator.Properties.Resources.collapseicon;
-            this.collapseBtn.Name = "collapseBtn";
-            this.collapseBtn.TabStop = false;
-            this.collapseBtn.Click += new System.EventHandler(this.collapseBtn_Click);
-            this.collapseBtn.MouseEnter += new System.EventHandler(this.collapseBtn_MouseEnter);
-            this.collapseBtn.MouseLeave += new System.EventHandler(this.collapseBtn_MouseLeave);
+            resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
             // 
             // mainform
             // 
@@ -145,12 +168,13 @@ namespace optimizator
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HelpButton = true;
             this.Name = "mainform";
-            this.ShowIcon = false;
             this.Load += new System.EventHandler(this.mainform_Load);
             this.panel1.ResumeLayout(false);
-            this.panelmenu.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.collapseBtn)).EndInit();
+            this.panelmenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -165,6 +189,9 @@ namespace optimizator
         private System.Windows.Forms.Button tweakbtn;
         private System.Windows.Forms.Panel panelfrm;
         private System.Windows.Forms.PictureBox closeBtn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 

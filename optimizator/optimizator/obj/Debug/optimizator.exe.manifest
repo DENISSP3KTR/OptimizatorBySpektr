@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="optimizator.exe" size="124880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="optimizator.exe" size="176592">
       <assemblyIdentity name="optimizator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Jj8LvstkLKLLRwd6J2WvG7oAn9b4yZjfRzNd7g137iw=</dsig:DigestValue>
+        <dsig:DigestValue>L1WutYsQrs0QwL+EKtZXl7XXpYDM8GNKQm1R/0RjMj4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

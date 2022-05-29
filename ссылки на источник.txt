@@ -1,2 +1,4 @@
-https://www.w3schools.com/browsers/browsers_os.asp
-https://www.reg.ru/blog/10-luchshih-ide-i-redaktorov-koda-dlya-veb-razrabotchikov/
+https://www.w3schools.com/browsers/browsers_os.asp твики
+https://www.reg.ru/blog/10-luchshih-ide-i-redaktorov-koda-dlya-veb-razrabotchikov/ 
+https://internet-lab.ru/windows_os про винду
+https://lifehacker.ru/programmy-dlya-optimizacii-kompyutera/ адванседсистем
