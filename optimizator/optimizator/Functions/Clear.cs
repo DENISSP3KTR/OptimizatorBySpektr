@@ -41,7 +41,6 @@ namespace optimizator.Functions
             if (tg.Checked == true)
             {
                 const string comm1 = "@echo off" + "\n" +
-                    "echo Made by FadeMind" + "\n" +
                     "sc stop NvTelemetryContainer > NUL 2>&1" + "\n" +
                     "sc config NvTelemetryContainer start= disabled > NUL 2>&1" + "\n" +
                     "for /f \"tokens = 1 delims =,\" %%t in ('schtasks /Query /FO CSV ^| find /v \"TaskName\" ^| find \"NvTmMon\"') do schtasks /Change /TN \" %% ~t\" /Disable >nul 2>&1" + "\n" +

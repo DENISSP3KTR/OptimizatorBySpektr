@@ -123,13 +123,10 @@ pause";
             if (tg.Checked)
             {
                 const string comm = @"@echo off
-echo ЋвЄ«озҐ­ЁҐ UAC...
 reg add ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"" /v ""EnableLUA"" /t REG_DWORD /d 0 /f
 reg add ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"" / v ""PromptOnSecureDesktop"" / t REG_DWORD / d 0 / f
 reg add ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"" / v ""ConsentPromptBehaviorAdmin"" / t REG_DWORD / d 0 / f
-echo ЋвЄ«озҐ­ЁҐ smartscreen...
 reg add ""HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer"" / v SmartScreenEnabled / t REG_SZ / d ""Off"" / f
-echo “бЇҐи­®!
 pause";
                 var p = Process.Start(new ProcessStartInfo
                 {
@@ -230,7 +227,6 @@ C0, CC, 0C, 00, 00, 00, 00, 00,
             if (tg.Checked == true)
             {
                 const string comm = @"@echo off
-rem Made by FadeMind
 
 echo “Ў®аЄ  вҐ«Ґ¬ҐваЁЁ...
 
