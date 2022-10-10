@@ -1,6 +1,6 @@
 # Оптимизатор Windows
 
-[DOWNLOAD](https://github.com/DENISSP3KTR/OptimizatorBySpektr/raw/main/optimizator/optimizator/bin/Release/app.publish/optimizator.exe)
+[DOWNLOAD](https://github.com/DENISSP3KTR/OptimizatorBySpektr/blob/main/optimizator/optimizator/bin/Release/optimizator.exe)
 
 
 ## Описание
